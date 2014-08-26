@@ -1,0 +1,76 @@
+
+
+
+#container{
+  background: #51EBB7;
+  width: 800px;
+  margin: 0 auto 0 auto; 
+}
+
+header{
+  background: #3356B0;
+}
+
+header li{
+  display: inline-block;
+}
+
+#logo{
+  width: 400px;
+  float: left;
+  background: url("http://placehold.it/15x45");
+  background-repeat: no-repeat;
+}
+
+#links{
+  width: 400px;
+  float: left;
+}
+
+#slideshow{
+  background: #51EBB7;
+  clear: both;
+}
+
+#article{
+  width: 400px;
+  float: left;
+  background: #E9E2C5;
+}
+
+#list{
+  width: 400px;
+  float: left;
+  background: #E9E2C5;
+}
+
+h2{
+  background: url("http://placehold.it/30x30");
+  background-repeat: no-repeat;
+  padding-left: 40px;
+}
+
+/*.list_items li{
+
+}*/
+
+#bio{
+  background: #BEEFF1;
+  clear: both;
+}
+
+#donate{
+  width: 400px;
+  float: left;
+  background: #51EBB7;
+}
+
+#connect{
+  width: 400px;
+  float: left;
+  background: #51EBB7;
+}
+
+footer{
+  background: #1C3652;
+}

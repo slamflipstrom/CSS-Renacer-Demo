@@ -13,11 +13,12 @@ body{
 
 header{
   background: #6dc7bc;
+  height: 10%;
+  padding-bottom: 20px;
 }
 
-h1.logo a {
+#logo{
   width: 50%;
-  height: 200px;
   float: left;
   position: relative;
   font-size: .97em;
@@ -25,20 +26,27 @@ h1.logo a {
 
 nav li{
   display: inline-block;
-  font-family: marker-felt;
+  font: 50px 'Mathlete-Bulky';
+  text-align: right;
+  margin-right: 50px;
 }
 
-/*#logo{
-  width: 400px;
-  height: 200px;
-  float: left;
-  background: url("http://placehold.it/15x45");
-  background-repeat: no-repeat;
-}*/
+#donate_button{
+  font: 30px 'Mathlete-Bulky';
+  position: absolute;
+  top: 0px;
+  right: 13.00%;
+  padding: .2% 2%;
+  color: #f8f7ee;
+  background: #FF5F3C;
+  border-bottom-left-radius: 5px;
+  border-bottom-right-radius: 5px;
+  text-transform: uppercase;
+  transition: all 200ms;
+}
 
 nav{
   width: 50%;
-  height: 200px;
   font-size: .96em;
   padding-top: 3%;
   float: right;
@@ -51,7 +59,7 @@ nav{
 }
 
 #slideshow_holder{
-  width: 98%;
+  width: 100%;
   align: center;
   overflow: hidden;
   }

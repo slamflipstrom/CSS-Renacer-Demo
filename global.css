@@ -1,9 +1,13 @@
 
 
+body{
+   background: #6dc7bc;
+   width: 100%;
+}
 
 #container{
   background: #6dc7bc;
-  width: 78%;
+  width: 80%;
   margin: 0 auto 0 auto; 
 }
 
@@ -47,8 +51,9 @@ nav{
 }
 
 #slideshow_holder{
-  width: 70%;
+  width: 98%;
   align: center;
+  overflow: hidden;
   }
 }
 

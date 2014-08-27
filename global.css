@@ -46,6 +46,12 @@ nav{
   clear: both;
 }
 
+#slideshow_holder{
+  width: 70%;
+  align: center;
+  }
+}
+
 #article{
   width: 50%;
   height: 300px;

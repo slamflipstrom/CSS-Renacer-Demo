@@ -36,7 +36,7 @@ nav li{
   position: absolute;
   top: 0px;
   right: 13.00%;
-  padding: .2% 2%;
+  padding: .2% 1.5%;
   color: #f8f7ee;
   background: #FF5F3C;
   border-bottom-left-radius: 5px;
@@ -54,7 +54,7 @@ nav{
 
 #slideshow{
   background: #6dc7bc;
-  height: 700px;
+  height: 35%;
   clear: both;
 }
 
@@ -62,27 +62,42 @@ nav{
   width: 100%;
   align: center;
   overflow: hidden;
-  }
 }
+
 
 #article{
   width: 50%;
-  height: 300px;
+  height: 30%;
   float: left;
   background: #E9E2C5;
 }
 
-#list{
-  width: 50%;
-  height: 300px;
-  float: left;
-  background: #E9E2C5;
+#article h1{
+  font: 200px 'Mathlete-Bulky';
+  margin: 0;
+  text-align: center;
 }
 
-h2{
+#article h2{
+  font: 100px 'Mathlete-Bulky';
+  margin: 0;
+  text-align: center;
+}
+
+#article p{
+  font: 25px 'Copperplate';
   background: url("http://placehold.it/30x30");
   background-repeat: no-repeat;
   padding-left: 40px;
+  text-align: center;
+}
+
+#list{
+  font: 75px 'Mathlete-Bulky';
+  width: 50%;
+  height: 30%;
+  float: left;
+  background: #E9E2C5;
 }
 
 #bio{

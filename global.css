@@ -2,8 +2,8 @@
 
 
 #container{
-  background: #51EBB7;
-  width: 800px;
+  background: #6dc7bc;
+  width: 78%;
   margin: 0 auto 0 auto; 
 }
 
@@ -12,6 +12,7 @@ header{
 }
 
 h1.logo a {
+  width: 50%;
   height: 200px;
   float: left;
   position: relative;
@@ -32,7 +33,7 @@ nav li{
 }*/
 
 nav{
-  width: 400px;
+  width: 50%;
   height: 200px;
   font-size: .96em;
   padding-top: 3%;
@@ -40,20 +41,20 @@ nav{
 }
 
 #slideshow{
-  background: #51EBB7;
-  height: 600px;
+  background: #6dc7bc;
+  height: 700px;
   clear: both;
 }
 
 #article{
-  width: 400px;
+  width: 50%;
   height: 300px;
   float: left;
   background: #E9E2C5;
 }
 
 #list{
-  width: 400px;
+  width: 50%;
   height: 300px;
   float: left;
   background: #E9E2C5;
@@ -65,10 +66,6 @@ h2{
   padding-left: 40px;
 }
 
-/*.list_items li{
-
-}*/
-
 #bio{
   background: #BEEFF1;
   height: 300px;
@@ -76,17 +73,17 @@ h2{
 }
 
 #donate{
-  width: 400px;
+  width: 50%;
   height: 200px;
   float: left;
-  background: #51EBB7;
+  background: #6dc7bc;
 }
 
 #connect{
-  width: 400px;
+  width: 50%;
   height: 200px;
   float: left;
-  background: #51EBB7;
+  background: #6dc7bc;
 }
 
 footer{

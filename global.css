@@ -93,31 +93,41 @@ nav{
   display: inline-block;
 }
 
-#article{
+.article{
   width: 50%;
   height: 30%;
   float: left;
   background: #E9E2C5;
 }
 
-#article h1{
+.article h1{
   font: 200px 'Mathlete-Bulky';
   margin: 0;
   text-align: center;
 }
 
-#article h2{
+.article h2{
   font: 100px 'Mathlete-Bulky';
   margin: 0;
   text-align: center;
 }
 
-#article p{
+.article p{
   font: 25px 'Copperplate';
-  background: url("http://placehold.it/30x30");
-  background-repeat: no-repeat;
   padding-left: 40px;
   text-align: center;
+}
+
+.line-single{
+  background: url(http://renacerfoundation.org/wp-content/themes/renacer/images/line-brown.png) repeat-x;
+  background-size: 600px auto;
+  display: inline;
+  float: left;
+  width: 100%;
+  margin: 0 1.3888888888888888%;
+  height: 5px;
+  margin-top: 2%;
+  margin-bottom: 2%;
 }
 
 #list{
@@ -126,6 +136,30 @@ nav{
   height: 30%;
   float: left;
   background: #E9E2C5;
+}
+
+#list h3{
+  color: #3e3934;
+  text-align: center;
+  margin-bottom: 5%;
+  text-shadow: 2px 2px 0px #f8f7ee,4px 4px 0px #c4ded9;
+  font-family: 'Herculanum', 'Josefin Slab', serif;
+}
+
+.list_items{
+  text-align: center;
+}
+
+.list_items li{
+  background: url("http://placehold.it/30x30");
+  background-repeat: no-repeat;
+  display:inline-block;
+  text-align: center;
+}
+
+.list_items li a:link{
+      color: #f8f7ee;
+      text-decoration: none;
 }
 
 #bio{

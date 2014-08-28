@@ -64,6 +64,23 @@ nav{
   overflow: hidden;
 }
 
+.slideshow_items{
+  display: inline-block;
+}
+
+.slideshow_items li{
+  display: inline-block;
+}
+
+.slideshow_items a{
+  background: url("http://placehold.it/30x30/ec6851/ec6851");
+  background-repeat: no-repeat;
+  width: 15px;
+  height: 0px;
+  padding-top: 10px;
+  overflow: hidden;
+  display: inline-block;
+}
 
 #article{
   width: 50%;

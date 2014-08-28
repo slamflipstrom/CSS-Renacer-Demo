@@ -104,12 +104,14 @@ nav{
   font: 200px 'Mathlete-Bulky';
   margin: 0;
   text-align: center;
+  text-shadow: 2px 2px 0px #f8f7ee,4px 5px 0px #ec6851
 }
 
 .article h2{
   font: 100px 'Mathlete-Bulky';
   margin: 0;
   text-align: center;
+  text-shadow: 2px 2px 0px #f8f7ee,4px 5px 0px #ec6851
 }
 
 .article p{

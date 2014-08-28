@@ -1,14 +1,21 @@
 
 
 body{
-   background: #6dc7bc;
    width: 100%;
 }
 
 #container{
-  background: #6dc7bc;
-  width: 80%;
+  width: 100%;
   margin: 0 auto 0 auto; 
+}
+
+#segment1 {
+  background: #6dc7bc;
+}
+
+#content1{
+  width: 80%;
+  margin: 0 auto 0 auto;
 }
 
 header{
@@ -93,11 +100,19 @@ nav{
   display: inline-block;
 }
 
+#segment2{
+  background: #f8f7ee; 
+}
+
+#content2{
+    width: 80%;
+    margin: 0 auto 0 auto;  
+}
+
 .article{
   width: 50%;
   height: 30%;
   float: left;
-  background: #E9E2C5;
 }
 
 .article h1{
@@ -137,7 +152,6 @@ nav{
   width: 50%;
   height: 30%;
   float: left;
-  background: #E9E2C5;
 }
 
 #list h3{
@@ -146,6 +160,7 @@ nav{
   margin-bottom: 5%;
   text-shadow: 2px 2px 0px #f8f7ee,4px 4px 0px #c4ded9;
   font-family: 'Herculanum', 'Josefin Slab', serif;
+  font-size: .85em;
 }
 
 .list_items{

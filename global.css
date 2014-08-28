@@ -30,6 +30,12 @@ nav li{
   text-align: right;
   margin-right: 50px;
 }
+  
+  /* unvisited link */
+nav li a:link {
+      color: #f8f7ee;
+      text-decoration: none;
+  }
 
 #donate_button{
   font: 30px 'Mathlete-Bulky';
@@ -38,12 +44,17 @@ nav li{
   right: 13.00%;
   padding: .2% 1.5%;
   color: #f8f7ee;
-  background: #FF5F3C;
+  background: #ec6851;
   border-bottom-left-radius: 5px;
   border-bottom-right-radius: 5px;
   text-transform: uppercase;
   transition: all 200ms;
 }
+
+#donate_button a:link{
+      color: #f8f7ee;
+      text-decoration: none;
+  }
 
 nav{
   width: 50%;
